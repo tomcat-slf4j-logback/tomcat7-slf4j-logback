@@ -1,4 +1,4 @@
-﻿# Tomcat + SLF4J + Logback (Reached End of Life) #
+﻿# Tomcat7 + SLF4J + Logback (Reached End of Life) #
 
 [![Build Status](https://travis-ci.org/tomcat-slf4j-logback/tomcat-slf4j-logback.svg?branch=master)](https://travis-ci.org/tomcat-slf4j-logback/tomcat-slf4j-logback)
 [![Eclipse](https://img.shields.io/badge/license-Eclipse-blue.svg)](https://www.eclipse.org/legal/epl-v10.html)
@@ -8,6 +8,8 @@
 Tomcat SLF4J Logback is a drop in replacement to tomcat allowing full all internal logging to use our favorite slf4j/logback libraries.
 
 ## NOTICE ##
+
+Tomcat7 support has reached end of life.  See [here](https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback) for supported versions.
 
 As of logback 1.1.7, it is no longer necessary to include `${catalina.home}` in server.xml for logback-access.  We have also realigned our code to better match logback in all ways.
 Throughout this documentation you will read about the prior setup and the new setup.  Both should work without problems.
